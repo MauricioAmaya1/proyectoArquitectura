@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto:ital@1&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto /*Arial, Helvetica, sans-serif*/;
+}
+
+body{
+  background-color: #DDD;
+  width: 100%;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between; /* Añadido para separar los elementos */
+  background-color: #333;
+  align-items: center;
+}
+
+.logo img {
+  width: auto; /* La imagen no será más ancha que su contenedor */
+  max-width: 20rem;
+  height: 5rem;    /* La altura se ajustará automáticamente para mantener la proporción */
+  margin: 1rem;
+}
+
+.nav-header {
+  display: flex;
+}
+
+.nav-header a {
+  margin-right: 2rem; /* Ajusta el espacio entre los enlaces según tu preferencia */
+  text-decoration: none;
+  color: #FFF; 
+  font-weight: 400;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-header a:hover {
+  color: rgb(253, 187, 65); /* Cambiamos el color a amarillo cuando el cursor está sobre el enlace */
+}
+
+
+@media screen and (max-width: 1100px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  .nav-header a {
+    margin: 10px; /* Ajusta el espacio entre los enlaces según tu preferencia */
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .logo img {
+    width: auto;
+    max-width: 20rem;
+    height: 6rem;
+    align-items: center;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+
+  }
+
+}
+
+
+
+/* carrusel ---------------------------------------------------------------------- */
+
+.carousel {
+  margin-top: 1rem;
+  width: 100%; /* Ajusta el ancho del carrusel según sea necesario */
+  height: 50rem; /* Ajusta la altura del carrusel según sea necesario, aquí se establece al 40rem */
+  overflow: hidden;
+
+}
+
+.carousel img {
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  height: auto; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+  margin: auto; /* Centra la imagen horizontalmente */
+  display: block; /* Evita el espacio adicional debajo de la imagen debido a la propiedad display: block */
+}
+
+@media screen and (max-width: 1100px) {
+  .carousel {
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+}
+/* grilla principal ---------------------------------------------------------------------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  gap: 10px;
+  max-width: 70%;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Media Query para ajustar el diseño en pantallas más pequeñas */
+@media screen and (max-width: 1100px) {
+  .grid-container {
+    max-width: 90%;
+
+  }
+}
+
+
+
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item img {
+  max-height: 40rem;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid-item span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.grid-item:hover span {
+  opacity: 1;
+  font-size: 2rem;
+}
+
+/* prefooter  ---------------------------------------------------------------------- */
+
+.pre-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #333; /* Color de fondo según tus preferencias */
+  color: #fff; /* Color de texto según tus preferencias */
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text-box {
+  flex: 1;
+  margin-bottom: 1rem;
+}
+
+/* Media Query para ajustar el diseño en pantallas más pequeñas */
+@media screen and (max-width: 1100px) {
+  .pre-footer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .text-box {
+    flex: 0 0 100%; /* Ocupa todo el ancho en pantallas más pequeñas */
+    text-align: center;
+    font-size: 1.3rem;
+  }
+}
+
+/* showrooms  ---------------------------------------------------------------------- */
+
+.grilla-titulo{
+  font-size: 2.5rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.grilla {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 1rem auto;
+}
+
+.item {
+  flex: 1;
+  max-width: 100%;
+  margin: 0.5rem;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.item img {
+  max-width: 100%;
+  height: 12rem; /* Establece la altura fija deseada */
+  object-fit: cover; /* Ajusta la propiedad object-fit según tus preferencias (cover, contain, etc.) */
+  border-radius: 4px;
+}
+
+.item h2 {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+.item p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    text-align: center;
+  }
+
+  .item {
+    flex: 0 0 48%; /* Cada elemento ocupa el 45% del ancho en la columna */
+    margin: 1%;
+  }
+
+  .item img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+
+}
+
+
+
+
+/* footer ----------------------------------------------------- */
+footer {
+  background-color: #333; /* Cambia el color de fondo según tus preferencias */
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.contacto a {
+  color: #fff; /* Cambia el color de los enlaces según tus preferencias */
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* Cambia el estilo de los enlaces al pasar el cursor sobre ellos */
+.contacto a:hover {
+  text-decoration: underline;
+} 
+
+.logo-footer img {
+  width: auto; /* La imagen no será más ancha que su contenedor */
+  max-width: 12rem;
+  height: 4rem;    /* La altura se ajustará automáticamente para mantener la proporción */
+  padding-left: 1rem; /* separo el logo del margen izq */
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .logo-footer img {
+    width: auto; /* La imagen no será más ancha que su contenedor */
+    max-width: auto;
+    height: 4rem;
+  }
+
+  .contacto {
+    margin-top: 1rem; /* Ajusta el valor según sea necesario para agregar espacio entre las filas */
+  }
+
+}
+
+
+
+.derechos{
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 0.5rem;
+}

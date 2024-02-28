@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos/contacto.css">
+    <!-- biblioteca iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-xxx..." crossorigin="anonymous" />
+    <!-- biblioteca carrusel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  </head>
+  <body>
+
+
+  <script src="js/header.js" ></script>
+
+  <p class="titulo">Contactate con Nosotros!</p>
+
+  <div class="container">
+    <form id="form" action="" method="POST" >
+      <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
+          <span class="error-msg" id="nombre-error"></span>
+      </div>
+      <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" required placeholder="Escribe tu apellido">
+          <span class="error-msg" id="apellido-error"></span>
+      </div>
+      <div class="form-group">
+          <label for="correo">Correo:</label>
+          <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+          <span class="error-msg" id="correo-error"></span>
+      </div>
+      <div class="form-group">
+          <label for="numero">Número de Celular:</label>
+          <input type="tel" id="numero" name="numero-celular" pattern="[0-9]{10}" required placeholder="Escribe tu número de celular">
+          <span class="error-msg" id="numero-error"></span>
+      </div>
+      <div class="form-group">
+          <label for="provincia">Provincia:</label>
+          <input type="text" id="provincia" name="provincia" required placeholder="Escribe tu provincia">
+          <span class="error-msg" id="provincia-error"></span>
+      </div>
+      <div class="form-group">
+          <label for="ciudad">Ciudad:</label>
+          <input type="text" id="ciudad" name="ciudad" required placeholder="Escribe tu ciudad">
+          <span class="error-msg" id="ciudad-error"></span>
+      </div>
+      <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu mensaje"></textarea>
+          <span class="error-msg" id="mensaje-error"></span>
+      </div>
+
+      <div class="form-mensajes">
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+        <div> 
+          <p class="warnings" id="warnings"></p>
+          <p class="ok" id="ok"></p>
+        </div>
+      </div>
+
+  </form>
+</div>
+
+    <p class="grilla-titulo">Visita Nuestros Showrooms</p>
+
+    <div class="grilla">
+      <div class="item">
+        <img src="img/locales/Easy-Argentina.jpg" alt="Showroom 1">
+        <h2>Rosario</h2>
+        <p>Número de Teléfono: 123-456-7890</p>
+        <p>Dirección: Calle 123, Ciudad</p>
+      </div>
+      <div class="item">
+        <img src="img/locales/EASY-MONTES-GRANDE-1-DSC_1739-800-X-533.jpg" alt="Showroom 1">
+        <h2>Cordoba</h2>
+        <p>Número de Teléfono: 123-456-7890</p>
+        <p>Dirección: Calle 123, Ciudad</p>
+      </div>
+      <div class="item">
+        <img src="img/locales/easy.jpg" alt="Showroom 1">
+        <h2>Santa Fe</h2>
+        <p>Número de Teléfono: 123-456-7890</p>
+        <p>Dirección: Calle 123, Ciudad</p>
+      </div>
+      <div class="item">
+        <img src="img/locales/esss.jpg" alt="Showroom 1">
+        <h2>Buenos Aires</h2>
+        <p>Número de Teléfono: 123-456-7890</p>
+        <p>Dirección: Calle 123, Ciudad</p>
+      </div>
+    </div>
+
+    <script src="js/footer.js"></script>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/contacto.js"></script>
+  </body>
+</html>
+
+
