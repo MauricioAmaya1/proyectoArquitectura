@@ -55,36 +55,7 @@ form.addEventListener("submit", function (e) {
   if (entrar) {
     parrafo.innerHTML = warnings;
   } else {
-    // Hacer una solicitud AJAX al archivo PHP
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "enviar_formulario.php", true);
-    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-        // Muestra la respuesta del servidor en el elemento 'ok'
-        ok.innerHTML = xhr.responseText;
-      }
-    };
-
-    // Envía los datos del formulario al servidor
-    xhr.send(
-      "nombre=" +
-        encodeURIComponent(nombre.value) +
-        "&apellido=" +
-        encodeURIComponent(apellido.value) +
-        "&correo=" +
-        encodeURIComponent(correo.value) +
-        "&numero-celular=" +
-        encodeURIComponent(numero.value) +
-        "&provincia=" +
-        encodeURIComponent(provincia.value) +
-        "&ciudad=" +
-        encodeURIComponent(ciudad.value) +
-        "&mensaje=" +
-        encodeURIComponent(mensaje.value)
-    );
-
-    // También puedes limpiar los campos después de enviar el formulario
+    ok.innerHTML = "Mensaje Enviado!";
     nombre.value = "";
     apellido.value = "";
     correo.value = "";

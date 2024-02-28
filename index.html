@@ -6,6 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Proyecto Arquitectura</title>
       <link rel="stylesheet" href="estilos/index.css">
+      <!-- biblioteca animaciones -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
       <!-- biblioteca iconos -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-xxx..." crossorigin="anonymous" />
       <!-- biblioteca carrusel -->
@@ -40,49 +42,27 @@
         </div>
       </div>
 
-      <div class="pre-footer">
-        <div class="text-box">
-          <p>Pedi tu presupuesto sin CARGO</p>
-        </div>
-        <div class="text-box">
-          <p>ventas@proyectoarquitectura.com</p>
+      <div class="pre-footer-container">
+        <div class="pre-footer animated">
+          <div class="text-box">
+            <p class="animate__animated animate__slideInLeft">Pedí tu presupuesto sin CARGO</p>
+          </div>
+          <div class="text-box">
+            <p class="animate__animated animate__slideInRight">ventas@proyectoarquitectura.com</p>
+          </div>
         </div>
       </div>
 
-      <p class="grilla-titulo">Visita Nuestros Showrooms</p>
-
-      <div class="grilla">
-        <div class="item">
-          <img src="img/locales/Easy-Argentina.jpg" alt="Showroom 1">
-          <h2>Rosario</h2>
-          <p>Número de Teléfono: 123-456-7890</p>
-          <p>Dirección: Calle 123, Ciudad</p>
-        </div>
-        <div class="item">
-          <img src="img/locales/EASY-MONTES-GRANDE-1-DSC_1739-800-X-533.jpg" alt="Showroom 1">
-          <h2>Cordoba</h2>
-          <p>Número de Teléfono: 123-456-7890</p>
-          <p>Dirección: Calle 123, Ciudad</p>
-        </div>
-        <div class="item">
-          <img src="img/locales/easy.jpg" alt="Showroom 1">
-          <h2>Santa Fe</h2>
-          <p>Número de Teléfono: 123-456-7890</p>
-          <p>Dirección: Calle 123, Ciudad</p>
-        </div>
-        <div class="item">
-          <img src="img/locales/esss.jpg" alt="Showroom 1">
-          <h2>Buenos Aires</h2>
-          <p>Número de Teléfono: 123-456-7890</p>
-          <p>Dirección: Calle 123, Ciudad</p>
-        </div>
-      </div>
+      <script src="js/showrooms.js"></script>
 
       <script src="js/footer.js"></script>
     
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
       <script src="js/index.js"></script>
+
+      <script>animation()</script> 
+
     </body>
   </html>
 
