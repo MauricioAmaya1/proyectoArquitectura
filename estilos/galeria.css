@@ -1,166 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto:ital@1&display=swap');
-
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Roboto /*Arial, Helvetica, sans-serif*/;
-}
-
-body{
-  background-color: #DDD;
-  width: 100%;
-}
-
-/* header y nav ------------------------------------------------------------ */
-
-header {
-  display: flex;
-  justify-content: space-between; /* Añadido para separar los elementos */
-  background-color: #333;
-  align-items: center;
-}
-
-.logo img {
-  width: auto; /* La imagen no será más ancha que su contenedor */
-  max-width: 20rem;
-  height: 5rem;    /* La altura se ajustará automáticamente para mantener la proporción */
-  margin: 1rem;
-}
-
-.nav-header {
-  display: flex;
-}
-
-.nav-header a {
-  margin-right: 2rem; /* Ajusta el espacio entre los enlaces según tu preferencia */
-  text-decoration: none;
-  color: #FFF; 
-  font-weight: 400;
-  font-size: 1.5rem;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav-header a:hover {
-  color: rgb(253, 187, 65); /* Cambiamos el color a amarillo cuando el cursor está sobre el enlace */
-}
-
-
-@media screen and (max-width: 1100px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-
-  .nav-header a {
-    margin: 10px; /* Ajusta el espacio entre los enlaces según tu preferencia */
-  }
-}
-
-
-
-@media screen and (max-width: 700px) {
-  .logo img {
-    width: auto;
-    max-width: 20rem;
-    height: 6rem;
-    align-items: center;
-  }
-
-  .menu-button {
-    display: none;
-  }
-
-  header {
-    display: flex;
-    justify-content: center;
-
-  }
-
-}
-
-/* grilla principal ---------------------------------------------------------------------- */
 
 .titulo{
   font-size: 2rem;
   text-align: center;
-  padding-top: 2rem;
-  width: auto;
+  padding-top: 1rem;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
-  gap: 10px;
-  max-width: 70%;
-  margin: 0 auto;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
-}
-
-/* Media Query para ajustar el diseño en pantallas más pequeñas */
-@media screen and (max-width: 1100px) {
-  .grid-container {
-    max-width: 90%;
-
-  }
-}
-
-.grid-item {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.grid-item img {
-  max-height: 40rem;
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.grid-item span {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: #fff;
-  font-size: 1rem;
-  font-weight: bold;
-  text-align: center;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.grid-item:hover span {
-  opacity: 1;
-  font-size: 2rem;
-}
-
-
-/* Media Query para ajustar el diseño en pantallas más pequeñas */
-@media screen and (max-width: 1100px) {
-  .pre-footer {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-  }
-
-  .text-box {
-    flex: 0 0 100%; /* Ocupa todo el ancho en pantallas más pequeñas */
-    text-align: center;
-    font-size: 1.3rem;
-  }
-}
-
-
-/* otra grilla  ----------------------------------------------------- */
-
+/* GALERIA  ----------------------------------------------------- */
 
 .masonry {
   column-count: 4;
@@ -169,7 +14,7 @@ header {
   margin: 20px auto;
 }
 
-.item {
+.item-galery {
   display: inline-block;
   width: 100%;
   margin-bottom: 15px;
@@ -180,7 +25,7 @@ header {
   position: relative; /* Añadido para posicionar la descripción relativa al contenedor .item */
 }
 
-.item img {
+.item-galery img {
   width: 100%;
   height: auto;
   border-radius: 8px 8px 0 0;
@@ -216,69 +61,16 @@ header {
   
 }
 
-
-
-
-
-
-/* footer ----------------------------------------------------- */
-footer {
-  background-color: #333; /* Cambia el color de fondo según tus preferencias */
-  color: #fff; /* Cambia el color del texto según tus preferencias */
-  padding: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.masonry img:hover + .image-description {
+  opacity: 1;
 }
 
-
-.contacto a {
-  color: #fff; /* Cambia el color de los enlaces según tus preferencias */
-  text-decoration: none;
-  margin-right: 15px;
-}
-
-/* Cambia el estilo de los enlaces al pasar el cursor sobre ellos */
-.contacto a:hover {
-  text-decoration: underline;
-} 
-
-.logo-footer img {
-  width: auto; /* La imagen no será más ancha que su contenedor */
-  max-width: 12rem;
-  height: 4rem;    /* La altura se ajustará automáticamente para mantener la proporción */
-  padding-left: 1rem; /* separo el logo del margen izq */
-}
-
-
-
-@media screen and (max-width: 700px) {
-
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+@media screen and (max-width: 1100px) {
+  .masonry {
+    column-count: 3;
+    column-gap: 15px;
+    max-width: 80%;
+    margin: 20px auto;
   }
-
-
-  .logo-footer img {
-    width: auto; /* La imagen no será más ancha que su contenedor */
-    max-width: auto;
-    height: 4rem;
-  }
-
-  .contacto {
-    margin-top: 1rem; /* Ajusta el valor según sea necesario para agregar espacio entre las filas */
-  }
-
-}
-
-
-
-.derechos{
-  background-color: black;
-  text-align: center;
-  color: white;
-  padding: 0.5rem;
+  
 }

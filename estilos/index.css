@@ -65,40 +65,34 @@ header {
 
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .logo img {
     width: auto;
     max-width: 20rem;
     height: 6rem;
     align-items: center;
   }
+
   header {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
   }
 
-  .menu-button {
-    display: none;
+  .nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
   }
 
-}
-
-
-@media screen and (max-width: 700px) {
   .nav-header a {
-    display: none;
+    flex-basis: 50%; /* Ajusta este valor según sea necesario */
+    margin-bottom: 0.6rem;
   }
 
-  .menu-button {
-    display: block;
-    background-color: #333;
-    color: #FFF;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-  }
 }
-
 
 
 /* carrusel ---------------------------------------------------------------------- */
