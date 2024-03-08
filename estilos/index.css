@@ -69,6 +69,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .nav-header a {
@@ -78,13 +79,22 @@ header {
   }
 
   .nav-header a i {
-    margin-right: 1rem;
     font-size: 1.6rem;
   }
 
-  .nav-header a span {
-    display: none; /* Añadido para ocultar el texto del enlace */
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  
+  .nav-text {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    align-items: center;
+  }
+
+
 }
 
 /* carrusel ---------------------------------------------------------------------- */
