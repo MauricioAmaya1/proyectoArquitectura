@@ -21,7 +21,8 @@
   <p class="titulo">Contactate con Nosotros!</p>
 
   <div class="container">
-    <form id="form" method="POST" >
+    <form action="https://api.web3forms.com/submit" method="POST" >
+      <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
       <div class="form-group">
           <label for="nombre">Nombre:</label>
           <input type="text" id="nombre" name="nombre" required placeholder="Escribe tu nombre">
@@ -67,21 +68,20 @@
           <p class="ok" id="ok"></p>
         </div>
       </div>
+    </form>
+  </div>
 
-  </form>
-</div>
+  <script src="js/showrooms.js"></script>
 
-    
+  <script src="js/footer.js"></script>
 
-    <script src="js/showrooms.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script src="js/footer.js"></script>
-  
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/contacto.js"></script>
 
-    <script src="js/contacto.js"></script>
   </body>
+
 </html>
 
 
