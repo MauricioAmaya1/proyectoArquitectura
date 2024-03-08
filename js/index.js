@@ -32,11 +32,3 @@ function animation(){
     handleScroll();
   });
 }
-
-
-
-
-function mostrarMenu() {
-  const navHeader = document.querySelector('.nav-header');
-  navHeader.classList.toggle('active');
-}
