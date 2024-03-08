@@ -8,45 +8,54 @@
 /* FORMULARIO  ---------------------------------------------------------------------- */
 
 .container {
-  width: 100vh;
-  min-width: max-content;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin: 0 auto; 
-  border-radius: 0.5rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
-  background-color: #f4f4f4; /* Fondo del contenedor */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 
 label {
   display: block;
-  margin-bottom: 0.5rem;
-  color: #333;
-  font-weight: bold;
+  margin-bottom: 5px;
 }
+
+textarea {
+  max-width: 100%;
+  max-height: 5rem;
+  min-height: 100px;
+  resize: vertical;
+  overflow: auto;
+}
+
 
 input,
 textarea {
-  width: 35rem;
-  padding: 0.8rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-  margin-bottom: 0.5rem;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0.5rem;
+  border-radius: 3px;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 5px;
+}
+
+.form-mensajes {
+  display: flex;
+  justify-content: space-between;
 }
 
 button {
-  background-color: #4caf50;
-  color: #fff;
-  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
   border: none;
-  border-radius: 0.25rem;
   cursor: pointer;
 }
 
@@ -54,15 +63,19 @@ button:hover {
   background-color: #45a049;
 }
 
-.error-msg {
-  color: #ff0000;
-  font-size: 0.8rem;
-}
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .form-group {
+    margin-bottom: 10px;
+  }
 
-.form-mensajes{
-  display: flex;
-  justify-content: space-between;
-  
+  .form-mensajes {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
 }
 
 .warnings{

@@ -35,13 +35,8 @@ function animation(){
 
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const menuButton = document.querySelector('.menu-button');
-  const navLinks = document.querySelector('.nav-header');
 
-  menuButton.addEventListener('click', function () {
-    navLinks.style.display = (navLinks.style.display === 'flex' || navLinks.style.display === '') ? 'none' : 'flex';
-  });
-});
-
-
+function mostrarMenu() {
+  const navHeader = document.querySelector('.nav-header');
+  navHeader.classList.toggle('active');
+}

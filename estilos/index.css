@@ -46,10 +46,6 @@ header {
   color: rgb(253, 187, 65); /* Cambiamos el color a amarillo cuando el cursor está sobre el enlace */
 }
 
-.menu-button {
-  display: none;
-}
-
 
 @media screen and (max-width: 1100px) {
   header {
