@@ -1,4 +1,6 @@
 
+// CAROUSEL 
+
 $(document).ready(function(){
   $('.carousel').slick({
     autoplay: true,
@@ -8,6 +10,7 @@ $(document).ready(function(){
   });
 });
 
+// MOVIMIENTO PARA EL PRE FOOTER
 
 function animation(){
   document.addEventListener("DOMContentLoaded", function() {
@@ -32,3 +35,51 @@ function animation(){
     handleScroll();
   });
 }
+
+// PARA QUE QUEDE EL FOOTER HASTA ABAJO
+
+document.addEventListener("DOMContentLoaded", function () {
+  const footer = document.querySelector("footer");
+  const contenido = document.querySelector(".container"); // Puedes ajustar el selector según la clase o ID de tu contenido principal
+
+  function ajustarFooter() {
+    const contenidoHeight = contenido.offsetHeight;
+    const windowHeight = window.innerHeight;
+    const scrollY = window.scrollY;
+
+    if (contenidoHeight + windowHeight <= scrollY + windowHeight) {
+      footer.style.position = "fixed";
+      footer.style.bottom = "0";
+    } else {
+      footer.style.position = "static";
+    }
+  }
+
+  window.addEventListener("scroll", ajustarFooter);
+  window.addEventListener("resize", ajustarFooter);
+});
+
+
+// FLECHA PARA SUBIR HASTA EL NAV
+
+document.addEventListener("DOMContentLoaded", function () {
+  const scrollToTopButton = document.getElementById("scroll-to-top");
+
+  function toggleScrollToTopButton() {
+    if (window.scrollY > 200) {
+      scrollToTopButton.style.display = "block";
+    } else {
+      scrollToTopButton.style.display = "none";
+    }
+  }
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
+  window.addEventListener("scroll", toggleScrollToTopButton);
+  scrollToTopButton.addEventListener("click", scrollToTop);
+});
