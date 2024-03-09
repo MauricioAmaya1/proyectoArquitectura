@@ -72,14 +72,25 @@ header {
     
   }
 
+  .nav-header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    max-width: auto;
+
+  }
+
   .nav-header a {
     margin: 10px; /* Ajusta el espacio entre los enlaces según tu preferencia */
     display: flex; /* Añadido para que el enlace sea un contenedor flexible */
-    justify-content: center; /* Añadido para centrar el contenido del enlace */
+    justify-content: center;
+
   }
 
   .nav-header a i {
     font-size: 1.6rem;
+    align-items: center;
+    padding-left: 0.5rem;
   }
 
   .nav-item {
@@ -182,6 +193,7 @@ header {
   .grid-container {
     grid-template-columns: 1fr; /* Cambia a una sola columna */
     max-width: 90%;
+    padding-top: 1rem;
   }
 }
 

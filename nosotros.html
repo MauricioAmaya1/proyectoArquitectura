@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="estilos/nosotros.css">
+    <!-- biblioteca animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- biblioteca iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha384-B4dIYHKNsC3UrDgO6/LdL1ZW3OiutXe0/FJYgN0/lW4C8czQm2yG2sIwUkTB7T/y" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-xxx..." crossorigin="anonymous" />
+    <!-- biblioteca carrusel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  </head>
+  <body>
+    <script src="js/header.js" ></script>
+
+    <div class="container">
+        <!-- Sección de introducción -->
+        <div class="section section-inicio">
+          <h2 class="titulo">Nosotros</h2>
+          <p>Somos una empresa de construcción con sede en Rosario, Argentina. Nuestra especialidad es la construcción de quinchos de alta calidad y la venta de aberturas de todo tipo.</p>
+          <p>Aunque somos una empresa joven, fundada hace menos de un año, contamos con un equipo de profesionales altamente capacitados y experimentados en el rubro de la construcción.</p>
+          <p>Nuestra misión es brindar soluciones de construcción personalizadas y de alta calidad a nuestros clientes, utilizando materiales sostenibles y tecnología de vanguardia.</p>
+          <p>Nuestra visión es ser líderes en el mercado de la construcción de quinchos y la venta de aberturas en Rosario y sus alrededores, ofreciendo un servicio excepcional y un producto final de la más alta calidad.</p>
+      </div>
+        <div class="team-grid">
+          <div class="team-member">
+              <img src="img/people/people (1).jfif" alt="Foto de integrante del equipo" class="team-photo">
+              <h3 class="team-name">Nombre del integrante</h3>
+              <p class="team-position">Puesto del integrante</p>
+          </div>
+          <!-- Repetir el código anterior para cada integrante del equipo -->
+          <div class="team-member">
+              <img src="img/people/people (2).jfif" alt="Foto de integrante del equipo" class="team-photo">
+              <h3 class="team-name">Nombre del integrante</h3>
+              <p class="team-position">Puesto del integrante</p>
+          </div>
+          <!-- Repetir el código anterior para cada integrante del equipo -->
+          <div class="team-member">
+              <img src="img/people/people (3).jfif" alt="Foto de integrante del equipo" class="team-photo">
+              <h3 class="team-name">Nombre del integrante</h3>
+              <p class="team-position">Puesto del integrante</p>
+          </div>
+          <!-- Repetir el código anterior para cada integrante del equipo -->
+          <div class="team-member">
+            <img src="img/people/people (1).jfif" alt="Foto de integrante del equipo" class="team-photo">
+            <h3 class="team-name">Nombre del integrante</h3>
+            <p class="team-position">Puesto del integrante</p>
+        </div>
+        <!-- Repetir el código anterior para cada integrante del equipo -->
+        <div class="team-member">
+            <img src="img/people/people (2).jfif" alt="Foto de integrante del equipo" class="team-photo">
+            <h3 class="team-name">Nombre del integrante</h3>
+            <p class="team-position">Puesto del integrante</p>
+        </div>
+        <!-- Repetir el código anterior para cada integrante del equipo -->
+        <div class="team-member">
+            <img src="img/people/people (3).jfif" alt="Foto de integrante del equipo" class="team-photo">
+            <h3 class="team-name">Nombre del integrante</h3>
+            <p class="team-position">Puesto del integrante</p>
+        </div>
+      </div>
+
+        <!-- Sección de galería de imágenes -->
+        <div class="section">
+            <p class="titulo-galeria">Trabajos recientes</p>
+            <div class="gallery">
+              <img src="img/nosotros/nosotros (1).jfif" alt="Imagen de quincho">
+              <img src="img/nosotros/nosotros (2).jfif" alt="Imagen de quincho">
+              <img src="img/nosotros/nosotros (3).jfif" alt="Imagen de quincho">
+              <img src="img/nosotros/nosotros (4).jfif" alt="Imagen de quincho">
+              <img src="img/nosotros/nosotros (5).jfif" alt="Imagen de quincho">
+              <img src="img/nosotros/nosotros (6).jfif" alt="Imagen de quincho">
+          </div>
+        </div>
+
+        <!-- Sección de testimonios -->
+        <div class="section-testimonios">
+          <h2>Testimonios</h2>
+          <div class="testimonial">
+            <p>Juan Pérez: "Excelente trabajo y atención al cliente. Me encanta mi quincho y las aberturas que compré. Los recomiendo."</p>
+          </div>
+          <div class="testimonial">
+            <p>María Rodríguez: "Gracias por la calidad de vuestros productos y servicios. Me encanta mi quincho y las aberturas que compré. Los recomiendo."</p>
+          </div>
+        </div>
+    </div>
+
+    <script src="js/showrooms.js"></script>
+
+    <script src="js/footer.js"></script>
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const testimonials = document.querySelectorAll(".testimonial");
+    
+        const observer = new IntersectionObserver(
+          (entries, observer) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("in-view");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+    
+        testimonials.forEach((testimonial) => {
+          observer.observe(testimonial);
+        });
+      });
+    </script>
+
+</body>
+</html>

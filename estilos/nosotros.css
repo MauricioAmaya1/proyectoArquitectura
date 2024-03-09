@@ -1,0 +1,133 @@
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .section-inicio p {
+    width: 100%;
+  }
+  
+
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 100%;
+  }
+  .section-inicio p {
+    width: 100%;
+  }
+  
+}
+
+
+.titulo{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.section-inicio {
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.section-inicio h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.section-inicio p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #333;
+  text-align:justify ;
+}
+
+/* Estilos de la cuadrícula de integrantes del equipo */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  width: 100%;
+  max-width: auto;
+}
+.team-member {
+  text-align: center;
+}
+.team-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.team-name {
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+.team-position {
+  font-size: 1rem;
+  color: #666;
+}
+
+.titulo-galeria{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 15px;
+  padding-bottom: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover; /* Para mantener la proporción y cubrir completamente el contenedor */
+
+}
+
+
+.section-testimonios h2{
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.testimonios {
+  text-align: center;
+  padding: 1rem;
+}
+
+.testimonial {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  background-color: #BBB;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+
+/* Aplicar animación cuando la testimonial entre en el viewport */
+.testimonial.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
