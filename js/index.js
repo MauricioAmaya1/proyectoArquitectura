@@ -83,3 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", toggleScrollToTopButton);
   scrollToTopButton.addEventListener("click", scrollToTop);
 });
+
+
+animation();
