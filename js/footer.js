@@ -1,4 +1,4 @@
     // Cargar pie de página
-    fetch('footer.html')
+    fetch('componentes/footer.html')
         .then(response => response.text())
         .then(html => document.body.insertAdjacentHTML('beforeend', html));

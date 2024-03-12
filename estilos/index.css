@@ -303,15 +303,27 @@ h1 {
   }
 
   .item img {
-    max-width: 85%;
+    max-width: 250px;
+    max-width: auto;
     height: auto;
     border-radius: 4px;
   }
 
+
+  .item h2 {
+    font-size: 1.2rem;
+  }
+  
+  .item p {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .item {
     display: flex;
     flex-direction: column;
@@ -320,13 +332,22 @@ h1 {
   }
 
   .item img {
-    max-width: 100%;
+    width: 100%;
+    max-width: auto;
+    height: 8rem;
   }
 
   .item h2, .item p {
     /* Ajusta estilos de h2 y p según sea necesario */
     margin: 5px 0;
   }
+
+  .p-direc , .p-calle{
+    display: none;
+  }
+
+
+
 }
 
 
