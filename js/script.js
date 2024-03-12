@@ -20,6 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
         default:
           productImage.src = 'img/cotizador/1/R.png';
       }
+
+      productImage.style.maxWidth = '400px';
+      productImage.style.maxHeight = '400px';
+
     }
   }
 
@@ -32,3 +36,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add your code for the next step here
   });
 });
+

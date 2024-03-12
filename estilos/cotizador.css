@@ -1,0 +1,11 @@
+.container-cotizador {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

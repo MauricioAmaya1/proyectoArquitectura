@@ -283,11 +283,13 @@ h1 {
 .item h2 {
   font-size: 1.3rem;
   padding-top: 1rem;
+  text-align: center;
 }
 
 .item p {
   margin: 0.5rem 0;
   font-size: 1rem;
+  text-align: center;
 }
 
 @media screen and (max-width: 1100px) {
@@ -303,8 +305,8 @@ h1 {
   }
 
   .item img {
-    max-width: 250px;
-    max-width: auto;
+    width: auto;
+    max-width: 300px;
     height: auto;
     border-radius: 4px;
   }
@@ -316,14 +318,14 @@ h1 {
   
   .item p {
     margin: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   
 
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .item {
     display: flex;
     flex-direction: column;
@@ -365,7 +367,7 @@ footer {
 .contacto a {
   color: #fff; /* Cambia el color de los enlaces según tus preferencias */
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 1rem;
 }
 
 /* Cambia el estilo de los enlaces al pasar el cursor sobre ellos */
