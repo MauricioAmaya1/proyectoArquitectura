@@ -1,62 +1,252 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
+    
     <link rel="stylesheet" href="estilos/index.css">
     <link rel="stylesheet" href="estilos/cotizador.css">
-    <!-- biblioteca animaciones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <!-- biblioteca iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha384-B4dIYHKNsC3UrDgO6/LdL1ZW3OiutXe0/FJYgN0/lW4C8czQm2yG2sIwUkTB7T/y" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-xxx..." crossorigin="anonymous" />
-    <!-- biblioteca carrusel -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   </head>
   <body>
+
     <script src="js/header.js" ></script>
 
     <h1>Elija el color de su quincho</h1>
-    
-    <div id="form-container">
-      <form>
-        <div id="image-container-1" class="image-container">
-          <img class="image" id="image-1" src="img/1.png" alt="Imagen 1">
-          <img class="image" id="image-2" src="img/2.png" alt="Imagen 2">
-          <img class="image" id="image-3" src="img/3.png" alt="Imagen 3">
-          <img class="image" id="image-4" src="img/4.png" alt="Imagen 4">
+
+
+    <div id="imagen-grande"></div>
+
+    <div class="contenedor-imagenes">
+      <div class="imagen-contenedor">
+        <img class="imagen" id="A" src="img/cotizador/1/A.png" alt="Imagen 1">
+        <div class="boton-radio">
+          <input type="radio" name="imagen" id="radioA" onchange="mostrarImagen('A')">
+          <label for="radioA">A</label>
         </div>
-        <div id="options-container-1"></div>
-        <button id="next-btn-1">Siguiente</button>
+      </div>
+      
+      <div class="imagen-contenedor">
+        <img class="imagen" id="M" src="img/cotizador/1/M.png" alt="Imagen 2">
+        <div class="boton-radio">
+          <input type="radio" name="imagen" id="radioM" onchange="mostrarImagen('M')">
+          <label for="radioM">M</label>
+        </div>
+      </div>
   
-        <div id="image-container-2" class="image-container" style="display: none;">
-          <img class="image" id="image-5" src="img/5.png" alt="Imagen 5">
-          <img class="image" id="image-6" src="img/6.png" alt="Imagen 6">
-          <img class="image" id="image-7" src="img/7.png" alt="Imagen 7">
-          <img class="image" id="image-8" src="img/8.png" alt="Imagen 8">
+      <div class="imagen-contenedor">
+        <img class="imagen" id="R" src="img/cotizador/1/R.png" alt="Imagen 3">
+        <div class="boton-radio">
+          <input type="radio" name="imagen" id="radioR" onchange="mostrarImagen('R')">
+          <label for="radioR">R</label>
         </div>
-        <div id="options-container-2" style="display: none;"></div>
-        <button id="next-btn-2" style="display: none;">Siguiente</button>
+      </div>
   
-        <div id="image-container-3" class="image-container" style="display: none;">
-          <img class="image" id="image-9" src="img/9.png" alt="Imagen 9">
-          <img class="image" id="image-10" src="img/10.png" alt="Imagen 10">
+      <div class="imagen-contenedor">
+        <img class="imagen" id="V" src="img/cotizador/1/V.png" alt="Imagen 4">
+        <div class="boton-radio">
+          <input type="radio" name="imagen" id="radioV" onchange="mostrarImagen('V')">
+          <label for="radioV">V</label>
         </div>
-        <div id="options-container-3" style="display: none;"></div>
-        <button id="next-btn-3" style="display: none;">Enviar</button>
-      </form>
+      </div>
     </div>
 
-    <script src="js/script.js"></script>
+    <div class="siguiente-seccion" onclick="cargarNuevasImagenes()">
+      Siguiente sección
+    </div>
+  
+    <script>
+      function mostrarImagen(id) {
+        var imagenGrande = document.getElementById('imagen-grande');
+        var imagenPequena = document.getElementById(id);
 
+        imagenGrande.innerHTML = ''; // Limpiar el contenido actual
+        var nuevaImagen = document.createElement('img');
+        nuevaImagen.src = imagenPequena.src;
+        nuevaImagen.alt = imagenPequena.alt;
 
+        imagenGrande.appendChild(nuevaImagen);
+      }
 
+      function cargarNuevasImagenes() {
+        var contenedorImagenes = document.querySelector('.contenedor-imagenes');
+        var nuevasImagenesHTML = '';
+
+        // Obtener el valor del botón de radio seleccionado
+        var opcionSeleccionada = document.querySelector('input[name="imagen"]:checked');
+
+        if (opcionSeleccionada) {
+          var opcionId = opcionSeleccionada.id;
+
+          switch (opcionId) {
+            case 'radioA':
+              nuevasImagenesHTML = `
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="AA" src="img/cotizador/2/AA.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioAA" onchange="mostrarImagen('AA')">
+                    <label for="radioAA">AA</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="AM" src="img/cotizador/2/AM.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioAM" onchange="mostrarImagen('AM')">
+                    <label for="radioAM">AM</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="AR" src="img/cotizador/2/AR.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioAR" onchange="mostrarImagen('AR')">
+                    <label for="radioAR">AR</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="AV" src="img/cotizador/2/AV.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioAV" onchange="mostrarImagen('AV')">
+                    <label for="radioAV">AV</label>
+                  </div>
+                </div>
+              `;
+              break;
+
+            case 'radioM':
+              nuevasImagenesHTML = `
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="MA" src="img/cotizador/2/MA.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioMA" onchange="mostrarImagen('MA')">
+                    <label for="radioMA">MA</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="MM" src="img/cotizador/2/MM.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioMM" onchange="mostrarImagen('MM')">
+                    <label for="radioMM">MM</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="MR" src="img/cotizador/2/MR.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioMR" onchange="mostrarImagen('MR')">
+                    <label for="radioMR">MR</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="MV" src="img/cotizador/2/MV.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioMV" onchange="mostrarImagen('MV')">
+                    <label for="radioMV">MV</label>
+                  </div>
+                </div>
+              `;
+            break;
+
+            case 'radioR':
+              nuevasImagenesHTML = `
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="RA" src="img/cotizador/2/RA.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioRA" onchange="mostrarImagen('RA')">
+                    <label for="radioRA">RA</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="RM" src="img/cotizador/2/RM.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioRM" onchange="mostrarImagen('RM')">
+                    <label for="radioRM">RM</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="RR" src="img/cotizador/2/RR.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioRR" onchange="mostrarImagen('RR')">
+                    <label for="radioRR">RR</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="RV" src="img/cotizador/2/RV.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioMV" onchange="mostrarImagen('RV')">
+                    <label for="radioRV">RV</label>
+                  </div>
+                </div>
+              `;
+            break;
+
+            case 'radioV':
+              nuevasImagenesHTML = `
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="VA" src="img/cotizador/2/VA.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioVA" onchange="mostrarImagen('VA')">
+                    <label for="radioVA">VA</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="VM" src="img/cotizador/2/VM.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioVM" onchange="mostrarImagen('VM')">
+                    <label for="radioVM">VM</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="VR" src="img/cotizador/2/VR.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioVR" onchange="mostrarImagen('VR')">
+                    <label for="radioVR">VR</label>
+                  </div>
+                </div>
+
+                <div class="imagen-contenedor">
+                  <img class="imagen" id="VV" src="img/cotizador/2/VV.png" alt="Imagen 1">
+                  <div class="boton-radio">
+                    <input type="radio" name="imagen" id="radioVV" onchange="mostrarImagen('VV')">
+                    <label for="radioMV">VV</label>
+                  </div>
+                </div>
+              `;
+            break;
+
+      default:
+        console.error('Opción no válida:', opcionId);
+        break;
+      }
+
+      // Eliminar las primeras 4 imágenes del contenedor
+      contenedorImagenes.innerHTML = '';
+
+      // Agregar las nuevas imágenes al contenedor existente sin reemplazar todo el contenido
+      contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
+    } else {
+      alert('Por favor, seleccione una opción antes de pasar a la siguiente sección.');
+    }
+  }
+  </script>
 
     <script src="js/showrooms.js"></script>
 
     <script src="js/footer.js"></script>
-  
-</body>
+
+  </body>
+
 </html>

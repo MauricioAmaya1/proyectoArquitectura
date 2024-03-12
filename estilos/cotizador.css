@@ -1,11 +1,41 @@
-.container-cotizador {
+.contenedor-imagenes {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.options {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.imagen-contenedor {
+  text-align: center;
+}
+
+.imagen {
+  width: 400px;
+  height: 300px;
+  margin-bottom: 10px; /* Espaciado entre las imágenes (puedes ajustarlo según tus preferencias) */
+}
+
+.boton-radio {
+  text-align: center;
+}
+
+
+#imagen-grande {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto; /* Centra horizontalmente */
+  margin-bottom: 2rem;
+}
+
+#imagen-grande img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.siguiente-seccion {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
 }
