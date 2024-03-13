@@ -16,7 +16,7 @@
 
     <script src="js/header.js" ></script>
 
-    <h1>Elija el color de su quincho</h1>
+    <h1>Diseña en 3 simples pasos, tu lugar soñado</h1>
 
 
     <div id="imagen-grande"></div>
@@ -56,7 +56,7 @@
     </div>
 
     <div class="siguiente-seccion" onclick="cargarNuevasImagenes()">
-      Siguiente sección
+      Siguiente sección >
     </div>
   
     <script>
@@ -237,10 +237,136 @@
 
       // Agregar las nuevas imágenes al contenedor existente sin reemplazar todo el contenido
       contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
+
+      // Agregar el caso para la opción "AA" después de agregar las imágenes anteriores
+      if (opcionId === 'radioAA') {
+        contenedorImagenes.insertAdjacentHTML('beforeend', `
+          <div class="imagen-contenedor">
+            <img class="imagen" id="AAG" src="img/cotizador/3/gris/AA.png" alt="Imagen 1">
+            <div class="boton-radio">
+              <input type="radio" name="imagen" id="radioAAG" onchange="mostrarImagen('AAG')">
+              <label for="radioAAG">AAG</label>
+            </div>
+          </div>
+
+          <div class="imagen-contenedor">
+            <img class="imagen" id="AAN" src="img/cotizador/3/negro/AA.png" alt="Imagen 1">
+            <div class="boton-radio">
+              <input type="radio" name="imagen" id="radioAAN" onchange="mostrarImagen('AAN')">
+              <label for="radioAAN">AAN</label>
+            </div>
+          </div>
+        `);
+        }
+
+        if (opcionId === 'radioAAN' ||  opcionId === 'radioAAG') {
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          
+          var msgFinal = document.querySelector('h1');
+            msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        }
+
+
+      // Agregar el caso para la opción "AM" después de agregar las imágenes anteriores
+      if (opcionId === 'radioAM') {
+        contenedorImagenes.insertAdjacentHTML('beforeend', `
+          <div class="imagen-contenedor">
+            <img class="imagen" id="AMG" src="img/cotizador/3/gris/AM.png" alt="Imagen 1">
+            <div class="boton-radio">
+              <input type="radio" name="imagen" id="radioAMG" onchange="mostrarImagen('AMG')">
+              <label for="radioAMG">AMG</label>
+            </div>
+          </div>
+
+          <div class="imagen-contenedor">
+            <img class="imagen" id="AMN" src="img/cotizador/3/negro/AM.png" alt="Imagen 1">
+            <div class="boton-radio">
+              <input type="radio" name="imagen" id="radioAMN" onchange="mostrarImagen('AMN')">
+              <label for="radioAMN">AMN</label>
+            </div>
+          </div>
+        `);
+        }
+
+        if (opcionId === 'radioAMN' ||  opcionId === 'radioAMG') {
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          var msgFinal = document.querySelector('h1');
+            msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        }
+
+        // Agregar el caso para la opción "AR" después de agregar las imágenes anteriores
+        if (opcionId === 'radioAR') {
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+              <img class="imagen" id="ARG" src="img/cotizador/3/gris/AR.png" alt="Imagen 1">
+              <div class="boton-radio">
+                <input type="radio" name="imagen" id="radioARG" onchange="mostrarImagen('ARG')">
+                <label for="radioARG">ARG</label>
+              </div>
+            </div>
+
+            <div class="imagen-contenedor">
+              <img class="imagen" id="ARN" src="img/cotizador/3/negro/AR.png" alt="Imagen 1">
+              <div class="boton-radio">
+                <input type="radio" name="imagen" id="radioARN" onchange="mostrarImagen('ARN')">
+                <label for="radioAMN">ARN</label>
+              </div>
+            </div>
+          `);
+          }
+
+          if (opcionId === 'radioARN' ||  opcionId === 'radioARG') {
+            var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+            siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+            var msgFinal = document.querySelector('h1');
+            msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          }
+
+        // Agregar el caso para la opción "AV" después de agregar las imágenes anteriores
+        if (opcionId === 'radioAV') {
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+              <img class="imagen" id="AVG" src="img/cotizador/3/gris/AV.png" alt="Imagen 1">
+              <div class="boton-radio">
+                <input type="radio" name="imagen" id="radioAVG" onchange="mostrarImagen('AVG')">
+                <label for="radioAVG">AVG</label>
+              </div>
+            </div>
+
+            <div class="imagen-contenedor">
+              <img class="imagen" id="AVN" src="img/cotizador/3/negro/AV.png" alt="Imagen 1">
+              <div class="boton-radio">
+                <input type="radio" name="imagen" id="radioAVN" onchange="mostrarImagen('AVN')">
+                <label for="radioAVN">AVN</label>
+              </div>
+            </div>
+          `);
+          }
+
+          if (opcionId === 'radioAVN' ||  opcionId === 'radioAVG') {
+            var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+            siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+            var msgFinal = document.querySelector('h1');
+            msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          }
+
+
+
+
+
     } else {
       alert('Por favor, seleccione una opción antes de pasar a la siguiente sección.');
     }
+
   }
+
+
+
   </script>
 
     <script src="js/showrooms.js"></script>
