@@ -36,29 +36,6 @@ function animation(){
   });
 }
 
-// PARA QUE QUEDE EL FOOTER HASTA ABAJO
-
-document.addEventListener("DOMContentLoaded", function () {
-  const footer = document.querySelector("footer");
-  const contenido = document.querySelector(".container"); // Puedes ajustar el selector según la clase o ID de tu contenido principal
-
-  function ajustarFooter() {
-    const contenidoHeight = contenido.offsetHeight;
-    const windowHeight = window.innerHeight;
-    const scrollY = window.scrollY;
-
-    if (contenidoHeight + windowHeight <= scrollY + windowHeight) {
-      footer.style.position = "fixed";
-      footer.style.bottom = "0";
-    } else {
-      footer.style.position = "static";
-    }
-  }
-
-  window.addEventListener("scroll", ajustarFooter);
-  window.addEventListener("resize", ajustarFooter);
-});
-
 
 // FLECHA PARA SUBIR HASTA EL NAV
 
