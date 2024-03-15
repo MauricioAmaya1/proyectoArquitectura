@@ -198,9 +198,79 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         break;
 
       case 'radioAAN':
+
+        var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+        siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Azul Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+        var msgFinal = document.querySelector('h1');
+        msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        break;
+
       case 'radioAAG':
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Azul Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
         var msgFinal = document.querySelector('h1');
         msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -227,9 +297,78 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         break;
 
       case 'radioAMN':
+        var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+        siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Marron Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+        var msgFinal = document.querySelector('h1');
+        msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        break;
       case 'radioAMG':
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Marron Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
         var msgFinal = document.querySelector('h1');
@@ -257,9 +396,78 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         break;
 
       case 'radioARN':
+        var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+        siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Rojo Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+        var msgFinal = document.querySelector('h1');
+        msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        break;
       case 'radioARG':
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Rojo Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
         var msgFinal = document.querySelector('h1');
@@ -287,9 +495,80 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         break;
 
       case 'radioAVN':
+
+        var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+        siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Verde Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+        var msgFinal = document.querySelector('h1');
+        msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        break;
+
+
       case 'radioAVG':
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Azul Verde Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
         var msgFinal = document.querySelector('h1');
         msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -318,9 +597,79 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         break;
 
       case 'radioMAN':
+        var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+        siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Azul Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+        var msgFinal = document.querySelector('h1');
+        msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        break;
+
       case 'radioMAG':
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Azul Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
         var msgFinal = document.querySelector('h1');
@@ -348,9 +697,80 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           break;
 
         case 'radioMRN':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Rojo Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
+
         case 'radioMRG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Rojo Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -379,9 +799,80 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioMVN':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Verde Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
+          
         case 'radioMVG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Verde Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -410,12 +901,79 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioMMN':
+
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Marron Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
+
         case 'radioMMG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
 
-
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Marron Marron Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
           break;
@@ -444,9 +1002,80 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioRAN':
+
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Azul Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
         case 'radioRAG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Azul Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -475,15 +1104,84 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioRMN':
-        case 'radioRMG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Marron Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
           break;
+
+        case 'radioRMG':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Marron Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
+
 
         case 'radioRR':
           contenedorImagenes.insertAdjacentHTML('beforeend', `
@@ -506,9 +1204,79 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioRRN':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Rojo Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
         case 'radioRRG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Rojo Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -537,9 +1305,78 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioRVN':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Verde Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
+
         case 'radioRVG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Rojo Verde Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -570,9 +1407,78 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioVAN':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Verde Azul Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
+
         case 'radioVAG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Verde Azul Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -601,9 +1507,79 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioVMN':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Verde Marron Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
         case 'radioVMG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Verde Marron Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -632,9 +1608,80 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioVRN':
+          var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Verde Rojo Negro" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
+
+          var msgFinal = document.querySelector('h1');
+          msgFinal.textContent = 'Pronto nos estaremos contactando!';
+          break;
+
         case 'radioVRG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="Verde Rojo Gris" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
 
 
 
@@ -664,6 +1711,41 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           break;
 
         case 'radioVVN':
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+          <div class="imagen-contenedor">
+        <form action="https://api.web3forms.com/submit" method="POST" >
+
+        <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+        <div class="form-group">
+            <label for="fullName">Nombre:</label>
+            <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+            <span class="error-msg" id="nombre-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+            <span class="error-msg" id="correo-error"></span>
+        </div>
+        <div class="form-group">
+            <label for="direccion">Provincia y ciudad</label>
+            <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+            <span class="error-msg" id="direccion-error"></span>
+        </div>
+        <div class="form-group">
+          <label for="resultado">Resultado:</label>
+          <input type="resultado" id="resultado" name="resultado" value="Verde Verde Negro" readonly>
+          <span class="error-msg" id="correo-error"></span>
+        </div>
+  
+        <button type="submit">Enviar</button>
+  
+        </form>
+        `);
+
+
+        var msgFinal = document.querySelector('h1');
+        msgFinal.textContent = 'Pronto nos estaremos contactando!';
+        break;
         case 'radioVVG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
@@ -690,7 +1772,7 @@ siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
           </div>
           <div class="form-group">
             <label for="resultado">Resultado:</label>
-            <input type="resultado" id="resultado" name="resultado" value="radioVVG" readonly>
+            <input type="resultado" id="resultado" name="resultado" value="Verde Verde Gris" readonly>
             <span class="error-msg" id="correo-error"></span>
           </div>
     
