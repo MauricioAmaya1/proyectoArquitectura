@@ -62,6 +62,7 @@ h1 {
 
 /* FORMULARIO  */
 
+
 .form-group {
   margin-bottom: 10px;
 
@@ -155,30 +156,24 @@ ocultar el resultado del form
 
   }
 
-  .imagen-contenedor{
-    width: 70%;
-    max-width: 300px;
+  .contenedor-imagenes{
+    width: 80%;
   }
-  
+
   .form-group input{
     border-radius: 3px;
     border: none;
     text-align: center;
     font-size: 1rem;
-    width: 100%;
+    width: auto;
   
   }
-  
   
   label {
     display: block;
     margin-bottom: 5px;
   }
 
-
-
-
-
-
 }
 
+/* TENER CUIDADO CON EL FORM QUE PUEDE MOVER LAS IMAGENES DE LAS OPCIONES  */
