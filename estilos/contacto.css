@@ -78,18 +78,16 @@ button:hover {
   }
 }
 
-.warnings{
+.warnings, .ok {
   width: 10rem;
   text-align: center;
   margin: auto;
+}
+
+.warnings {
   color: #ff5a5a;
 }
 
-.ok{
-  width: 10rem;
-  text-align: center;
-  margin: auto;
+.ok {
   color: #45a049;
-
 }
-

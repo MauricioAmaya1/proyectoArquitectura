@@ -231,6 +231,7 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
+
         var msgFinal = document.querySelector('h1');
         msgFinal.textContent = 'Pronto nos estaremos contactando!';
         break;
@@ -259,6 +260,7 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
       case 'radioARG':
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
 
         var msgFinal = document.querySelector('h1');
         msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -320,6 +322,7 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
+
         var msgFinal = document.querySelector('h1');
         msgFinal.textContent = 'Pronto nos estaremos contactando!';
         break;
@@ -347,7 +350,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioMRN':
         case 'radioMRG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -376,7 +381,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioMVN':
         case 'radioMVG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -405,7 +412,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioMMN':
         case 'radioMMG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -437,7 +446,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioRAN':
         case 'radioRAG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -466,7 +477,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioRMN':
         case 'radioRMG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -495,7 +508,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioRRN':
         case 'radioRRG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -524,7 +539,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioRVN':
         case 'radioRVG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -555,7 +572,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioVAN':
         case 'radioVAG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -584,7 +603,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioVMN':
         case 'radioVMG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -613,7 +634,9 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         case 'radioVRN':
         case 'radioVRG':
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
-          siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
+
+
 
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
@@ -636,6 +659,7 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
                 <label for="radioVVN">VVN</label>
               </div>
             </div>
+
           `);
           break;
 
@@ -644,19 +668,51 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           var siguienteSeccionBoton = document.querySelector('.siguiente-seccion');
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
+          contenedorImagenes.insertAdjacentHTML('beforeend', `
+            <div class="imagen-contenedor">
+          <form action="https://api.web3forms.com/submit" method="POST" >
+
+          <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
+          <div class="form-group">
+              <label for="fullName">Nombre:</label>
+              <input type="text" id="fullName" name="fullName" required placeholder="Escribe tu nombre">
+              <span class="error-msg" id="nombre-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="correo">Correo:</label>
+              <input type="email" id="correo" name="correo" required placeholder="nombre@ejemplo.com">
+              <span class="error-msg" id="correo-error"></span>
+          </div>
+          <div class="form-group">
+              <label for="direccion">Provincia y ciudad</label>
+              <input type="text" id="direccion" name="direccion" required placeholder="Escribe tu provincia y ciudad">
+              <span class="error-msg" id="direccion-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="resultado" id="resultado" name="resultado" value="radioVVG" readonly>
+            <span class="error-msg" id="correo-error"></span>
+          </div>
+    
+          <button type="submit">Enviar</button>
+    
+          </form>
+          `);
+
+
           var msgFinal = document.querySelector('h1');
           msgFinal.textContent = 'Pronto nos estaremos contactando!';
           break;
 
-
     }
 
 
-
-
-
-
 } else {
+
+  if (siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!') {
+    siguienteSeccionBoton.disabled = true; // Desactiva el botón
+  }
+
 alert('Por favor, seleccione una opción antes de pasar a la siguiente sección.');
 }
 
