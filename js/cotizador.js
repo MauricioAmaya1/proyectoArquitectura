@@ -203,7 +203,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -242,7 +241,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -301,7 +299,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -340,7 +337,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -400,7 +396,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -439,7 +434,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -500,7 +494,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -540,7 +533,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -601,7 +593,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -641,7 +632,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
         siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -701,7 +691,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -742,7 +731,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -803,7 +791,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -844,7 +831,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -906,7 +892,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -945,7 +930,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1007,7 +991,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1047,7 +1030,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1108,7 +1090,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1149,7 +1130,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1208,7 +1188,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1248,7 +1227,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1309,7 +1287,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1348,7 +1325,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1411,7 +1387,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1450,7 +1425,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1511,7 +1485,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1551,7 +1524,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1612,7 +1584,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1653,7 +1624,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1712,7 +1682,6 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
 
         case 'radioVVN':
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-          <div class="imagen-contenedor">
         <form action="https://api.web3forms.com/submit" method="POST" >
 
         <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">
@@ -1751,7 +1720,7 @@ contenedorImagenes.insertAdjacentHTML('beforeend', nuevasImagenesHTML);
           siguienteSeccionBoton.textContent = 'Finalizado, Muchas Gracias!';
 
           contenedorImagenes.insertAdjacentHTML('beforeend', `
-            <div class="imagen-contenedor">
+          
           <form action="https://api.web3forms.com/submit" method="POST" >
 
           <input type="hidden" name="access_key" value="4d0f326c-ebe8-4cb2-9da8-6cfb3225507f">

@@ -102,6 +102,11 @@ button:hover {
   background-color: #45a049;
 }
 
+form{
+  text-align: center;
+}
+
+
 /*
 ocultar el resultado del form
 
@@ -140,9 +145,9 @@ ocultar el resultado del form
 @media screen and (max-width: 768px) {
   .imagen {
     width: auto;
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
-    max-height: 130px;
+    max-height: 200px;
   }
 
   h1{
@@ -164,14 +169,33 @@ ocultar el resultado del form
     border: none;
     text-align: center;
     font-size: 1rem;
-    width: auto;
-  
+    width: 250px;
   }
   
   label {
     display: block;
     margin-bottom: 5px;
   }
+
+}
+
+
+
+  @media screen and (max-width: 550px) {
+
+    #imagen-grande {
+      width: 250px; /* Asegurar que la imagen grande ocupe el ancho completo */
+      height: 180px;
+    }
+
+
+    .imagen {
+      width: auto;
+      max-width: 180px;
+      height: auto;
+      max-height: 180px;
+    }
+  
 
 }
 

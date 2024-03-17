@@ -266,8 +266,8 @@
   .titulo-planos{
     width: 90%;
     text-align: center;
-    border: 1px solid black;
     margin: auto;
+    margin-top: 1rem;
   }
   
   .hr{
@@ -283,6 +283,8 @@
 
   #item-1 {
     width: 80%;
+    margin: auto;
+    margin-top: 1rem;
   }
 
   .contacto-planos{
