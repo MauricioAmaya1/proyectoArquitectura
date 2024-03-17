@@ -1,35 +1,47 @@
+.titulo-planos{
+  font-size: 1.7rem;
+  text-align: center;
+  margin-top: 1rem;
+}
 
-  .galeria-principal {
-    display: flex;
-    justify-content: center; /* Para centrar horizontalmente */
-    align-items: center; /* Para centrar verticalmente */
-    margin: 0;
-    margin-top: 2rem;
-  }
-  
-  .galeria-principal section {
-    display: flex;
-    justify-content: center; /* Para centrar los elementos img */
-    height: 700px;
-    width: 430px;
-  }
+.hr{
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
-  .galeria-principal section img {
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-  }
+/* -------------------- GALERIA  -------------------- */
 
-  .galeria-principal section img:hover {
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-  }
+.galeria-principal {
+  display: flex;
+  justify-content: center; /* Para centrar horizontalmente */
+  align-items: center; /* Para centrar verticalmente */
+}
+
+.galeria-principal section {
+  display: flex;
+  justify-content: center; /* Para centrar los elementos img */
+  height: 700px;
+  width: 430px;
+  margin-top: 2rem;
+}
+
+.galeria-principal section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+.galeria-principal section img:hover {
+  width: 250px;
+  opacity: 1;
+  filter: contrast(120%);
+}
 
 
-/*  GRID PARA PROBAR */
+/* -------------------- GRID PRINCIPAL -------------------- */
 
 .angry-grid {
   display: grid; 
@@ -45,6 +57,7 @@
   grid-column-start: 1;
   grid-row-end: 3;
   grid-column-end: 2;
+
 }
 
 #item-1 {
@@ -134,20 +147,9 @@
   color:rgb(253, 187, 65);
 }
 
-@media screen and (max-width: 768px) {
-  .item-2 {
-    padding: 15px;
-  }
-}
-
-.hr{
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
 
 
-/* GALERIA FINAL  */
+/* --------------------- CARDS FINAL -------------------- */
 
 .grid-container-planos {
   display: flex;
@@ -196,7 +198,26 @@
   transform: scale(1.1);
 }
 
-/* Media query para pantallas de menos de 1300px */
+/* -------------------- Media query para pantallas de menos de 1650px */
+
+@media (max-width: 1650px) {
+
+  #item-1{
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  #item-0{
+    width: auto;
+    margin-right: 1rem;
+  }
+
+
+}
+
+
+/* -------------------- Media query para pantallas de menos de 1300px */
+
 @media (max-width: 1300px) {
 
   .grid-container-planos {
@@ -226,6 +247,12 @@
     border: 1px solid black;
   }
 
+
+  .galeria-principal section {
+    margin-top: 0.5rem;
+  }
+
+
   #item-1 {
     font-size: 14px; 
     padding: 1rem;
@@ -235,6 +262,24 @@
 
 
 @media (max-width: 850px) {
+
+  .titulo-planos{
+    width: 90%;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+  }
+  
+  .hr{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  #item-0 {
+    margin: auto;
+  }
+  
 
   #item-1 {
     width: 80%;
@@ -261,13 +306,27 @@
     height: auto;
   }
 
+}
 
-  .hr{
+@media (max-width: 500px) {
+
+  #item-1 {
     width: 80%;
-    margin: auto;
-    margin-bottom: 1rem;
   }
 
+  #item-0 {
+    width: 100%;
+  }
+  
+
+  .galeria-principal{
+    width: 85%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+
+
 }
+
 
 

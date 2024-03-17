@@ -143,7 +143,6 @@ ocultar el resultado del form
     max-width: 200px;
     height: auto;
     max-height: 130px;
-    border: 1px solid black;
   }
 
   h1{
@@ -157,7 +156,7 @@ ocultar el resultado del form
   }
 
   .contenedor-imagenes{
-    width: 80%;
+    width: 100%;
   }
 
   .form-group input{
